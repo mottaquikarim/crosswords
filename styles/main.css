@@ -1,0 +1,27 @@
+/* CURRENTLY IN: styles/main.css */
+
+#app .cw-content {
+    margin-top: 80px;
+}
+
+#app .cw-grid {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+}
+#app .cw-grid-box {
+    width: 20%;
+    height: 20%;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    float: left;
+}
+
+#app .cw-grid-box--row-active {
+    background-color: lightblue;
+}
+
+#app .cw-grid-box--active {
+    background-color: yellow;
+}
